@@ -180,6 +180,8 @@ a {
   background-color: #113b52;
   justify-content: space-around;
   height: 500px;
+  color: white;
+  justify-content: space-around;
 }
 iframe {
   padding: 100px;
