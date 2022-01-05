@@ -177,7 +177,7 @@ a {
 
 .graphs {
   display: flex;
-  background-color: rgb(65, 101, 112);
+  background-color: #113b52;
   justify-content: space-around;
   height: 500px;
 }
