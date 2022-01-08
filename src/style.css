@@ -1,7 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 section {
   /* height: 500px; */
   background-color: white;
@@ -10,6 +12,24 @@ section {
   /* font-family: "Anton", sans-serif; */
   /* font-family: "Bebas Neue"; */
 }
+
+ 
+
+/* .information {
+  animation: slide-up 2s;
+}
+
+@keyframes slide-up {
+  from {
+    opacity: 0.2;
+    line-height: 200px;
+  }
+
+  to {
+    opacity: 1;
+    line-height: 25px;
+  }
+} */
 
 .hero {
   background-color: #113b52;
@@ -193,10 +213,11 @@ a {
 .graphs {
   display: flex;
   background-color: #113b52;
-  justify-content: space-around;
+  /* justify-content: space-around; */
   height: 500px;
   color: white;
-  justify-content: space-around;
+  /* padding: 30px; */
+  /* justify-content: space-around; */
 }
 iframe {
   padding: 100px;
